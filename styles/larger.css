@@ -1,0 +1,37 @@
+@media (min-width: 640px) {
+    html {
+        font-size: 25px;
+    }
+
+    .profile-pic {
+        margin-left: 14rem;
+    }
+
+    nav {
+        display: flex;
+    }
+
+    nav a {
+        display: flex;
+        justify-content: center;
+        flex: 1 1 100%;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 20% 80%;
+    }
+
+    .section-card1 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        margin: 1rem;
+    }
+
+    .section-card2 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        margin: 1rem;
+    }
+}

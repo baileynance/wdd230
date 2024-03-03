@@ -1,0 +1,108 @@
+/*
+BDD9BF Green
+2E4052 Black
+FFC857 Yellow
+FFFFFF White
+412234 Purple
+*/
+
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    background-color: #FFFFFF;
+}
+
+header {
+    background-color: #FFC857;
+    height: 5rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.profile-pic {
+    height: 5rem;
+    display: block;
+}
+
+header span {
+    color: #FFFFFF;
+    display: block;
+    margin: auto;
+    font-size: 1.6rem;
+}
+
+.home-hover {
+    background-color: #BDD9BF;
+    font-size: 1.1rem;
+}
+
+nav {
+    background-color: #2E4052;
+    margin: 0 auto;
+}
+
+nav a {
+    color: #FFFFFF;
+    display: block;
+    text-align: center;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #2E4052;
+    background-color: #FFFFFF;
+}
+
+#home-h1 {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 1.2rem 0;
+    text-decoration: underline;
+    color: #2E4052;
+}
+
+.card-banner {
+    color:#FFFFFF;
+    padding: 0.5rem;
+    display: block;
+    background-color: #FFC857;
+    text-align: center;
+    margin: 0;
+    border-radius: 0.6rem;
+}
+
+.section-card1, .section-card2 {
+    color: #2E4052;
+    border: 0.1rem solid #2E4052;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#home-la {
+    color: #2E4052;
+    display: block;
+    list-style-type: none;
+}
+
+.home-loc {
+    display: block;
+    text-align: center;
+}
+
+footer {
+    margin-bottom: -1rem;
+    padding: 0.25rem;
+    background-color:#FFC857;
+    color:#FFFFFF;
+    text-align: center;
+}
+
+#lastModified {
+    color: #2E4052;
+    font-size: 0.5rem;
+}
