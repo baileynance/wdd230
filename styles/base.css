@@ -33,14 +33,14 @@ header {
 }
 
 header span {
-    color: #FFFFFF;
+    color: #000000;
     display: block;
     margin: auto;
     font-size: 1.6rem;
 }
 
 .home-hover {
-    background-color: #BDD9BF;
+    background-color: #487f4b;
     font-size: 1.1rem;
 }
 
@@ -71,7 +71,7 @@ nav a:hover {
 }
 
 .card-banner {
-    color:#FFFFFF;
+    color:#000000;
     padding: 0.5rem;
     display: block;
     background-color: #FFC857;
@@ -102,7 +102,7 @@ footer {
     margin-bottom: -1rem;
     padding: 0.25rem;
     background-color:#FFC857;
-    color:#FFFFFF;
+    color:#000000;
     text-align: center;
 }
 
@@ -110,3 +110,4 @@ footer {
     color: #2E4052;
     font-size: 0.5rem;
 }
+
