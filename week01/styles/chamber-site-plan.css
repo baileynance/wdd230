@@ -1,0 +1,79 @@
+/*
+#623CEA Major Blue
+#54426B Purple
+#E7DFC6 Pearl
+#E9F1F7 White
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rozha+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rozha+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rozha+One&display=swap');
+
+html {
+    text-align: center;
+    background-color: #E7DFC6;
+    color: #54426B;
+}
+
+h1, h2 {
+    color: #623CEA;
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.no {
+    margin: auto 10%;
+    list-style-type: none;
+}
+
+.no1 {
+    list-style-type: none;
+    margin-left: -2%;
+}
+
+#color-1, #color-2, #color-3, #color-4 {
+    display: inline-block;
+    font-size: 30px;
+    border: 2px solid black;
+    color: black;
+}
+
+#color-1 {
+    background-color: #623CEA;
+}
+
+#color-2 {
+    background-color: #54426B;
+}
+
+#color-3 {
+    background-color: #E7DFC6;
+}
+
+#color-4 {
+    background-color: #E9F1F7;
+}
+
+#header-text {
+    font-family: 'Kanit', 'Lato', sans-serif;
+    font-size: 25px;
+    color: #54426B;
+}
+
+#paragraph-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    color: #623CEA;
+}
+
+#mobile-wireframe, #desktop-wireframe {
+    height: 40rem;
+    margin-bottom: 40px;
+}
