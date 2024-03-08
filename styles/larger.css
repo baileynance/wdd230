@@ -7,15 +7,22 @@
         margin-left: 14rem;
     }
 
-    nav {
-        display: flex;
-    }
+    .navigation {
+		display: flex;
+	}
 
-    nav a {
-        display: flex;
-        justify-content: center;
-        flex: 1 1 100%;
-    }
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 100%;
+	}
+
+	.navigation a {
+		text-align: center;
+	}
+
+	#menu {
+		display: none;
+	}
 
     main {
         display: grid;
