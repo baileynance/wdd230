@@ -126,11 +126,31 @@ main {
     color: #2E4052;
 }
 
+main picture img {
+    width: 100%;
+    height: auto;
+}
+
+#hero {
+    position: relative;
+}
+
+#hero-label {
+    position: absolute;
+    top: 175px;
+    left: 210px;
+    border: 3px solid #2E4052;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    padding: 0.1rem;
+}
+
 #home-h1 {
     text-align: center;
     font-size: 1.2rem;
     padding: 1.2rem 0;
     text-decoration: underline;
+    margin: 2rem auto;
 }
 
 .card-banner {
@@ -145,7 +165,7 @@ main {
 .section-card1, .section-card2 {
     border: 0.1rem solid #2E4052;
     border-radius: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin: 2rem;
 }
 
 #home-la {
@@ -153,9 +173,17 @@ main {
     list-style-type: none;
 }
 
-.home-loc {
+.section-card2 p {
     display: block;
     text-align: center;
+}
+
+iframe {
+    display: block;
+    margin: 2rem auto;
+    width: 80%;
+    height: auto;
+    border: none;
 }
 
 footer {

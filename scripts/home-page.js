@@ -20,3 +20,24 @@ modeButton.addEventListener("click", () => {
 		modeButton.textContent = "Dark Mode";
 	}
 });
+
+// Storage API
+
+setVisitCount = (count) => {
+	localStorage.setItem('visitCount', JSON.stringify(count));
+}
+
+getVisitCount = () => {
+	return JSON.parse(localStorage.getItem('visitCount'));
+}
+
+addVisit = () => {
+	count = getVisitCount();
+
+	count++;
+	setVisitCount(count);
+
+	document.getElementById('count').innerText = count;
+}
+
+addVisit();
