@@ -1,0 +1,97 @@
+@media (min-width: 640px) {
+    html {
+        font-size: 25px;
+    }
+
+    header p {
+        font-size: 45px;
+    }
+
+    /**/
+
+    .navigation {
+		display: flex;
+	}
+
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+
+	.navigation a {
+		text-align: center;
+	}
+
+	#menu {
+		display: none;
+	}
+
+    main section {
+        margin: 2rem 4rem;
+    }
+
+    /* Hero Section */
+
+    #hero-section {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto;
+    }
+    
+    #hero-img {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        width: 100%;
+        height: auto;
+    }
+
+    #hero-label {
+        padding: 1rem;
+        text-align: left;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        font-size: 26px;
+    }
+
+    /* Title */
+
+
+    /* Current Events */
+
+    #current-events {
+        display: grid; 
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(2, auto);
+    }
+
+    #current-events h2 {
+        grid-row: 1/2;
+        grid-column: 2/3;
+    }
+
+    #current-events div {
+        grid-row: 2/3;
+    }
+
+    /* Weather */
+
+    #weather h3 {
+        text-align: center;
+    }
+
+    /* Company Spotlight */
+    #company-spotlight {
+        display: grid; 
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(2, auto);
+    }
+
+    #company-spotlight h2 {
+        grid-row: 1/2;
+        grid-column: 2/3;
+    }
+
+    #company-spotlight div {
+        grid-row: 2/3;
+    }
+}

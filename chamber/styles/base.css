@@ -34,11 +34,22 @@ h1, h2 {
 
 header {
     display: flex;
-    align-content: space-around;
+    justify-content: space-around;
+    padding: 1rem;
 }
 
-header img {
-    height: 4rem;
+header p {
+    font-size: 1rem;
+}
+
+#join {
+    align-self: center;
+    height: 1.2rem;
+    color: #E9F1F7;
+    background-color: #54426B;
+    border: 2px solid rgb(14, 10, 10);
+    text-decoration: none;
+    padding: 0.2rem;
 }
 
 /* Menu and Nav */
@@ -84,8 +95,8 @@ nav ul {
 }
 
 .navigation a:hover {
-	color: #E9F1F7;
-	background-color: rgb(14, 10, 10);
+	background-color: #E9F1F7;
+	color: rgb(14, 10, 10);
 }
 
 .show li {
@@ -106,27 +117,84 @@ nav a {
 
 /* Main */
 
-#hero-section {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, auto);
+main section, #hero-label {
+    margin: 0 2rem;
 }
+
+main img {
+    height: 100px;
+    width: auto;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+/* Hero */
 
 #hero-img {
-    grid-column: 1/2;
-    grid-row: 1/2;
     width: 100%;
-}
-
-#hero-label {
-    grid-column: 1/2;
-    grid-row: 2/3;
-    text-align: center;
-    padding: 10%;
+    height: auto;
+    margin-top: -1rem;
 }
 
 .button {
+    text-align: center;
+    margin: 0 auto;
     color: #E9F1F7;
     background-color: #54426B;
     border: 2px solid rgb(14, 10, 10);
+    text-decoration: none;
+}
+
+/* Space Between */
+
+#title, #current-events, #weather, #company-spotlight {
+    margin-top: 4rem;
+}
+
+/* Current Event */
+
+#current-events {
+    text-align: center;
+}
+
+#current-events img {
+    display: block;
+    margin: 1rem auto;
+    width: 300px;
+    height: auto;
+}
+
+#current-events div {
+    margin-bottom: 3rem;
+}
+
+/* Weather */
+
+
+/* Company Spotlight */
+
+#company-spotlight {
+    text-align: center;
+}
+
+#company-spotlight img {
+    display: block;
+    margin: 1rem auto;
+    width: 300px;
+    height: auto;
+}
+
+#company-spotlight div {
+    margin-bottom: 3rem;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    background-color: #54426B;
+    color: #E7DFC6;
+    padding: 0.5rem;
 }
