@@ -1,0 +1,50 @@
+:root {
+    --black-background: black;
+    --text-head-color: white;
+    --column-label-color: rgb(101, 101, 101);
+    --light-cell-background: white;
+    --dark-cell-background: #ecebeb;
+    --border: 1px solid black;
+}
+
+table {
+    margin: 120px auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#title {
+    background-color: var(--black-background);
+    color: var(--text-head-color);
+}
+
+#column-labels {
+    background-color: var(--column-label-color);
+    color: var(--text-head-color);
+}
+
+#column-labels th:first-child {
+    background-color: var(--black-background);
+}
+
+th, td {
+    border-left: var(--border);
+    border-top: var(--border);
+    padding: 1rem;
+}
+
+#title, tr td:last-child, tr th:last-child {
+    border-right: var(--border);
+}
+
+tr:last-child {
+    border-bottom: var(--border);
+}
+
+tr:nth-child(even) {
+    background-color: var(--dark-cell-background);
+}
+
+tr:nth-child(odd) {
+    background-color: var(--light-cell-background);
+}
