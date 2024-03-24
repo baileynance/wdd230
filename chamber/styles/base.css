@@ -198,3 +198,25 @@ footer {
     color: #E7DFC6;
     padding: 0.5rem;
 }
+
+
+
+
+
+/* Discover Page */
+
+.discover {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.discover img {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 2rem auto 1rem auto;
+}
+
+.discover p {
+    margin: 2rem;
+}
