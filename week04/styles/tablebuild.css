@@ -41,10 +41,7 @@ tr:last-child {
     border-bottom: var(--border);
 }
 
-tr:nth-child(even) {
+tr:odd-rows {
     background-color: var(--dark-cell-background);
 }
 
-tr:nth-child(odd) {
-    background-color: var(--light-cell-background);
-}

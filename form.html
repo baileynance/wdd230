@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Activity - Form</title>
+    <meta name="author" content="Bailey Nance">
+    <meta name="description" content="Demonstrate your understanding of the learning activities by applying the concepts by adding an HTML frontend form.">
+    <meta property="og:title" content="Visit Austin Texas" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.austintexas.org/" />
+    <meta property="og:image" content="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,g_xy_center,h_602,q_75,w_1800,x_1890,y_1289/v1/clients/austin/Boardwalk_Credit_David_Aguilar_Lifetime_a83ce847-0fb7-48f5-8a11-3fd98c3104b9.jpg" />
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+    <link href="styles/form.css" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <div id="mode">Dark Mode</div>
+    <header>
+        <picture>
+            <img class="profile-pic" src="images/profile-pic.webp" alt="profile-pic" loading="lazy">
+        </picture>
+        <span>Bailey Joseph Nance</span>
+    </header>
+    <a id="menu" href="#"></a>
+    <nav>
+        <ul class="navigation">
+            <li><a class="home-hover" href="index.html">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="#">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form method="get" action="record.html" class="form">
+            <fieldset>
+                <legend>Form</legend>
+                <label>Username* <input type="text" id="username" name="username" required></label>
+                <label>Password* <input type="password" id="password" name="password"  pattern=".{8,}" required></label>
+                <label>Confirm Password* <input type="password" id="confirm-password" name="confirm-password" pattern=".{8,}" required></label>
+                <p id="matching"></p>
+                <label>Email* <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address" required></label>
+                <label>Rating <input type="range" id="rating" name="rating" value="6" min="1" max="10" step="1"></label>
+                <div id="rangeValue"></div>
+            </fieldset>
+            <input id="submit" type="submit" value="JOIN">
+        </form>
+    </main>
+    <footer>
+        <p>&copy;<span id="copy-year"></span> Bailey Nance Oregon US</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/form.js"></script>
+</body>
+</html>
