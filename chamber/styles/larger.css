@@ -97,5 +97,34 @@
 
 
 
-    /**/
+    /* Discover */
+    .discover {
+        margin: 2rem 2rem 2rem 2rem;
+    }
+
+    .discover div {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto;
+    }
+
+    .discover div h2, .discover div p {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .discover div h2 {
+        padding: 0.5rem 1rem 0 2rem;
+        text-align: left;
+    }
+
+    .discover div p {
+        padding-top: 2.5rem;
+        font-size: .9rem;
+    }
+
+    .discover div img {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
 }
