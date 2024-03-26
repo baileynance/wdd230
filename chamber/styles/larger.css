@@ -114,17 +114,27 @@
     }
 
     .discover div h2 {
-        padding: 0.5rem 1rem 0 2rem;
+        padding: 1.5rem 1rem 0 2rem;
         text-align: left;
     }
 
     .discover div p {
-        padding-top: 2.5rem;
+        padding-top: 3rem;
         font-size: .9rem;
     }
 
-    .discover div img {
+    .discover div figure {
         grid-column: 2/3;
         grid-row: 1/2;
     }
+
+    .discover figcaption {
+        text-align: center;
+        font-size: 0.5rem;
+    }
+
+    .discover div img:hover {
+        opacity: 75%;
+        box-shadow: 0 0 50px black;
+    }    
 }

@@ -205,6 +205,14 @@ footer {
 
 /* Discover Page */
 
+#visit-message {
+    margin-bottom: -.5rem;
+    border: 3px solid #54426B;
+    border-radius: 8px;
+    background-color: #E9F1F7;
+    padding: 5%;
+}
+
 .discover {
     margin-top: 2rem;
     margin-bottom: 4rem;
@@ -219,4 +227,10 @@ footer {
 
 .discover p {
     margin: 2rem;
+}
+
+.discover figcaption {
+    text-align: center;
+    font-size: 0.6rem;
+    margin-top: -.5rem;
 }
