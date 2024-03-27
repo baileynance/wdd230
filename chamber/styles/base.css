@@ -284,7 +284,7 @@ footer {
 .form textarea
 {
     display: block;
-    width: 100%;
+    width: 90%;
     max-width: 400px;
     height: 44px;
     border: 1px solid var(--border);
