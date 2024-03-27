@@ -32,13 +32,16 @@
         </ul>
     </nav>
     <main class="form">
+        <section>
+
+        </section>
         <form method="get" action="thankyou.html">
             <fieldset>
                 <legend>Application</legend>
                 <label>First Name* <input type="text" id="fname" name="fname" required></label>
                 <label>Last Name* <input type="text" id="lname" name="lname" required></label>
-                <label>Title <input type="text" id="title" name="title" pattern></label>
-                <label>Email* <input type="email" id="email" name="email" title="Please enter a valid email address" required></label>
+                <label>Title <input type="text" id="biz-title" name="biz-title" pattern="^[A-Za\-\s]{7,}"></label>
+                <label>Email* <input type="email" id="email" name="email" title="Please enter a valid email address" placeholder="example@email.com" required></label>
                 <label>Phone Number* <input type="tel" id="phone" name="phone" required></label>
                 <label>Business Name* <input type="text" id="business" name="business" required></label>
                 <label>Membership Level
