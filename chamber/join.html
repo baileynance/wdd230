@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Chamber of Commerce Join Page</title>
+    <meta name="author" content="Bailey Nance" />
+    <meta name="description" content="WDD 230 - Web Frontend Development:
+    Developing a chamber of commerce join page for the city of our choice. This page will have required fields
+    for the user to enter their information. Optional values will also be given as inputs.">
+    <meta property="og:title" content="Visit Austin Texas" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.austintexas.org/" />
+    <meta property="og:image" content="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,g_xy_center,h_602,q_75,w_1800,x_1890,y_1289/v1/clients/austin/Boardwalk_Credit_David_Aguilar_Lifetime_a83ce847-0fb7-48f5-8a11-3fd98c3104b9.jpg" />
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <h1>Austin Texas Chamber of Commerce</h1>
+        <a id="join" href="join.html">JOIN</a>
+    </header>
+    <a id="menu" href="#"></a>
+    <nav>
+        <ul class="navigation">
+            <li><a href="https://baileynance.github.io/wdd230/">HOME</a></li>
+            <li><a href="discover.html">DISCOVER</a></li>
+            <li><a>DIRECTORY</a></li>
+            <li><a href="join.html">JOIN</a></li>
+        </ul>
+    </nav>
+    <main class="form">
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Application</legend>
+                <label>First Name* <input type="text" id="fname" name="fname" required></label>
+                <label>Last Name* <input type="text" id="lname" name="lname" required></label>
+                <label>Title <input type="text" id="title" name="title" pattern></label>
+                <label>Email* <input type="email" id="email" name="email" title="Please enter a valid email address" required></label>
+                <label>Phone Number* <input type="tel" id="phone" name="phone" required></label>
+                <label>Business Name* <input type="text" id="business" name="business" required></label>
+                <label>Membership Level
+                    <select id="level" name="level">
+                        <option value="">Please Select &#9662;</option>
+                        <option value="np">NP Membership</option>
+                        <option value="bronze">Bronze Membership</option>
+                        <option value="silver">Silver Membership</option>
+                        <option value="gold">Gold Membership</option>
+                    </select>
+                </label>
+                <label>Description 
+                    <textarea id="description" name="description"></textarea>
+                </label>
+                <label><input type="hidden" id="time" name="time"></label>
+            </fieldset>
+            <input id="submit" type="submit" value="JOIN">
+        </form>
+    </main>
+    <footer>
+        <p>&copy;<span id="copy-year"></span> Bailey Nance</p>
+        <p>Oregon US</p>
+        <p>WDD 230</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/chamber.js"></script>
+</body>
+</html>
