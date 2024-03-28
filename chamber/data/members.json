@@ -1,0 +1,67 @@
+{
+    "members" : [
+        {
+            "name" : "12 Oaks Dental",
+            "address" : "11623 Angus Rd Bldg D, Suite 16 Austin, TX 78759",
+            "phone-number" : "(512)-346-5196",
+            "url" : "https://www.12oaksdentalaustin.com/",
+            "image" : "https://cdn1.austinchamber.com/organizationLogo/organization/logo/12oaks-logo_240124_174046.webp?mtime=20240124114045",
+            "membership" : "Bronze Membership",
+            "other" : "A complete health dental practice in the ATX connecting a healthy mouth and a healthy body. We are Transforming the perception of dentistry!"
+        },
+        {
+            "name" : "1st Franklin Financial",
+            "address" : "8711 Burnet Rd A 15 Austin, TX 78757",
+            "phone-number" : "(512)-459-1743",
+            "url" : "https://www.1ffc.com/texas/",
+            "image" : "https://www.1ffc.com/wp-content/uploads/2021/09/1ffc-Logo-white_notagline.png",
+            "membership" : "Silver Membership",
+            "other" : "1st Franklin Financial Corporation is in the business of helping our friends and neighbors make their way through life with the dignity and respect they deserve. We're not a payday lender and we don't offer loans secured against a customer's next paycheck. We offer customers short and long term installment loans with payment plans that fit each customer's need."
+        },
+        {
+            "name" : "3 Point Partners",
+            "address" : "1250 South Capital of Texas Hwy Building 3, Suite 340 Austin, TX 78746",
+            "phone-number" : "(512)-328-4055",
+            "url" : "https://www.3pointpartners.com/",
+            "image" : "https://static.wixstatic.com/media/997ce9_ce2123d43be245aaa8df108271e502aa~mv2.png/v1/fill/w_389,h_197,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo.png",
+            "membership" : "Gold Membership",
+            "other" : "3 Point Partners primarily provides consulting services for local, regional and statewide clients in the following key categories: Communications and Issues Management Government Relations Community Outreach Informed Consent Crisis Communications Media Relations"
+        },
+        {
+            "name" : "360 MD",
+            "address" : "511 W 15th St Austin, TX 78701",
+            "phone-number" : "(512)-924-8682",
+            "url" : "https://www.360mdaustin.com/",
+            "image" : "https://assets-global.website-files.com/60e47325019161c16d8e1faf/633e8e8a4c813031d25047d3_logo-White.png",
+            "membership" : "NP Membership",
+            "other" : "At 360, our mission is simple - provide, empower, inform, and treat. We are a dedicated group of caregivers, physicians, providers and community advocates that want to serve with a vision to care for all. We believe that all community members, from our vulnerable elderly and immunocompromised friends and family, to our healthy individuals, deserve access to their health information."
+        },
+        {
+            "name" : "3M",
+            "address" : "6801 River Place Boulevard Building A 130-5N-07 Austin, TX 78726",
+            "phone-number" : "(512) 984-6561",
+            "url" : "https://www.3m.com/",
+            "image" : "https://cdn1.austinchamber.com/organizationLogo/organization/logo/3M-Austin_180719_221529.jpeg?mtime=20180719171529",
+            "membership" : "Silver Membership",
+            "other" : "3M is a global innovation company that never stops inventing. The 3M Austin Plant manufactures electronic hard goods and performs new product manufacturing scale-up that supports 3M operations globally."
+        },
+        {
+            "name" : "3ONE Productions",
+            "address" : "8863 Anderson Mill Road 117 AUSTIN, Texas 78729",
+            "phone-number" : "(512)-573-8919",
+            "url" : "https://linktr.ee/3oneproductions",
+            "image" : "https://ugc.production.linktr.ee/urV5x74sTFyZMGqGlGzk_mTkiNp2A9akM5d1d?io=true&size=avatar-v3_0",
+            "membership" : "Gold Membership",
+            "other" : "At OpticTour Studio, we establish a creative connection with photographers and videographers for the community. We have created a safe and healthy environment to help you reach full potential. Our goal is to help you to spread your story as far as possible by being involved in the entire process."
+        },
+        {
+            "name" : "A+ Federal Credit Union",
+            "address" : "P.O. Box 14867 Austin, TX 78761",
+            "phone-number" : "(512)-302-6800",
+            "url" : "https://aplusfcu.org/",
+            "image" : "https://cdn1.austinchamber.com/organizationLogo/organization/logo/A-Federal-Credit-Union_180719_221531.jpeg?mtime=20180719171531",
+            "membership" : "NP Membership",
+            "other" : "A+ Federal Credit Union is one of the largest credit unions in Texas with 21 branches and nearly 130,000 members. It offers free checking accounts, savings accounts, car loans, and business accounts in the Austin Texas area."
+        }
+    ]
+}
