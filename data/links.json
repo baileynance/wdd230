@@ -1,0 +1,93 @@
+{
+    "weeks" : [
+        {
+            "weeks" : "Weeks 1",
+            "links" : [
+                {
+                    "url" : "week01/chamber-site-plan.html",
+                    "title" : "Chamber Site Plan" 
+                }
+            ]
+        },
+        {
+            "weeks" : "Weeks 2",
+            "links" : [
+                {
+                    "url" : "week02/design.html",
+                    "title" : "Wen Design Principles" 
+                },
+                {
+                    "url" : "https://codepen.io/baileynance/pen/XWQXMmd",
+                    "title" : "Responsive Menu Codepen" 
+                },
+                {
+                    "url" : "week02/bom.html",
+                    "title" : "DOM Manipulation" 
+                }
+            ]
+        },
+        {
+            "weeks" : "Weeks 3",
+            "links" : [
+                {
+                    "url" : "week03/images/landscape.webp",
+                    "title" : "WebP" 
+                },
+                {
+                    "url" : "week03/lazyload.html",
+                    "title" : "Lazy Load" 
+                },
+                {
+                    "url" : "week03/responsive-images.html",
+                    "title" : "Responsive Images" 
+                },
+                {
+                    "url" : "week03/bom.html",
+                    "title" : "BOM Activity" 
+                }
+            ]
+        },
+        {
+            "weeks" : "Weeks 4",
+            "links" : [
+                {
+                    "url" : "https://codepen.io/baileynance/pen/MWRpvKo",
+                    "title" : "CSS Pseudo-Classes" 
+                },
+                {
+                    "url" : "week04/images/css-combination-practice.png",
+                    "title" : "CSS Combination Practice" 
+                },
+                {
+                    "url" : "week04/tablebuild.html",
+                    "title" : "HTML Data Tables" 
+                },
+                {
+                    "url" : "week04/index.html",
+                    "title" : "Form Design" 
+                }
+            ]
+        },
+        {
+            "weeks" : "Weeks 5",
+            "links" : [
+                {
+                    "url" : "https://codepen.io/baileynance/pen/vYMJaPJ",
+                    "title" : "CSS Pseudo-Elements" 
+                },
+                {
+                    "url" : "week05/new-ward-members.json",
+                    "title" : "JSON Practice" 
+                },
+                {
+                    "url" : "week05/prophets.html",
+                    "title" : "Fetch API" 
+                },
+                {
+                    "url" : "week05/weather.html",
+                    "title" : "Weather API" 
+                }
+            ]
+        }
+    ]
+}
