@@ -1,0 +1,23 @@
+{
+    "family-name" : "Nance",
+    "move-date" : "01-01-2022",
+    "family-member-numbers" : 3,
+    "bishopric-visit" : true,
+    "family-members" : {
+        "bailey" : {
+            "name": "Bailey",
+            "gender" : "male",
+            "birthdate" : "11-13-1999"
+        },
+        "isabella" : {
+            "name": "Isabella",
+            "gender" : "female",
+            "birthdate" : "02-04-2003"
+        },
+        "Kitty" : {
+            "name": "Tuli",
+            "gender" : "female",
+            "birthdate" : "06-12-2021"
+        }
+    }
+}
