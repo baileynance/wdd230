@@ -14,6 +14,8 @@ Paragraph: 'Montserrat', 'sans-serif'
 */
 
 :root {
+    --pearl: #E7DFC6;
+    --white: #E9F1F7;
     --light-text-color: #E9F1F7;
     --dark-text-color: #54426B;
     --paragraph-text-color: #623CEA;
@@ -87,6 +89,7 @@ nav {
 
 .navigation {
 	list-style: none;
+    margin: 0;
 }
 
 nav ul {
@@ -139,7 +142,25 @@ main img {
 }
 
 h1, h2 {
-    text-align: center;
+    text-align: left;
+}
+
+/* Banner */
+
+#banner {
+    background-color: var(--dark-text-color);
+    color: var(--pearl);
+    display: block;
+    margin: 0 auto;
+    padding: 1.5rem;
+    position: relative;
+}
+
+#close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 0.5rem;
 }
 
 /* Hero */
@@ -147,7 +168,6 @@ h1, h2 {
 #hero-img {
     width: 100%;
     height: auto;
-    margin-top: -1rem;
 }
 
 .button {
@@ -159,10 +179,19 @@ h1, h2 {
     text-decoration: none;
 }
 
+#hero-img:hover {
+    opacity: 70%;
+}
+
 /* Space Between */
 
 #title, #current-events, #weather, #company-spotlight {
     margin-top: 4rem;
+}
+
+#title p {
+    text-align: left;
+    margin-left: 0;
 }
 
 /* Current Event */
@@ -173,17 +202,34 @@ h1, h2 {
 
 #current-events img {
     display: block;
-    margin: 1rem auto;
-    width: 300px;
+    width: 100%;
     height: auto;
 }
 
 #current-events div {
     margin-bottom: 3rem;
+    border: solid 2px var(--dark-text-color);
+    border-radius: 6px;
+    background-color: var(--white);
+}
+
+#current-events h3, p {
+    margin: 1rem;
 }
 
 /* Weather */
 
+#weather {
+    text-align: center;
+}
+
+#weather div {
+    border: solid 2px var(--dark-text-color);
+    border-radius: 6px;
+    background-color: var(--white);
+    margin: 1rem auto;
+    padding: 3%;
+}
 
 /* Company Spotlight */
 
@@ -200,6 +246,18 @@ h1, h2 {
 
 #company-spotlight div {
     margin-bottom: 3rem;
+    border: solid 2px var(--dark-text-color);
+    border-radius: 6px;
+    background-color: var(--white);
+}
+
+#company-spotlight h3, p {
+    margin: 1.5rem;
+}
+
+#spotlight-3 {
+    background-color: black;
+    padding: 2%;
 }
 
 /* Footer */
@@ -333,4 +391,78 @@ input[type="submit"] {
     padding: 6%;
     border: 1px solid var(--dark-text-color);
     background-color: var(--light-text-color);
+}
+
+/* Directory */
+
+#directory {
+	margin: 0 auto;
+	padding: 0.5rem;
+	max-width: 400px;
+	background-color: #fff;
+}
+
+.directory-menu {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #E7DFC6;
+	text-align: center;
+}
+
+.directory-menu button {
+	padding: 1rem;
+	font-weight: 700;
+}
+
+
+
+.directory-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 5px;
+	align-items: center;
+}
+
+.directory-grid section {
+	text-align: center;
+}
+
+.directory-grid img {
+	border: 1px solid #fff;
+	box-shadow: 0 0 10px #333;
+}
+
+.directory-grid section > * {
+	margin: 0.1rem;
+}
+
+
+
+.directory-list {
+	display: flex;
+	flex-direction: column;
+}
+
+.directory-list section {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	margin: 0;
+	padding: 0.25rem;
+}
+
+.directory-list section > * {
+	margin: 0 1rem;
+}
+
+.directory-list section img {
+	display: none; 
+}
+
+.directory-list section h3 {
+	font-size: 1rem;
+}
+
+.directory-list section:nth-child(even) {
+	background-color: #E7DFC6;
 }

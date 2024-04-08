@@ -32,50 +32,67 @@
         </ul>
     </nav>
     <main>
+        <banner id="banner">Welcome to the Austin Chamber of Commerce! Please join us on Wednesdays at 7:00 p.m. <button id="close">X</button></banner>
         <div id="hero-section">
-            <img id="hero-img" src="images/austin-skyline.webp" alt="Austin Skyline">
+            <img id="hero-img" src="images/austin-skyline.webp" alt="Austin Skyline" loading="lazy">
             <div id="hero-label">
                 <p>The Austin Chamber of Commerce acts as a center to provide leadership that strengthens our economy, convenes our community, and promotes collaboration so people can live, work, and thrive in Austin.</p>
-                <a class="button">Learn More</a>
+                <p><a class="button" href="discover.html">Learn More</a></p>
             </div>
         </div>
         <section id="title">
             <h2>Welcome to Austin, Texas</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sapiente mollitia, nisi culpa obcaecati harum dolores, rem consequuntur accusantium molestiae ullam expedita inventore excepturi officia autem. Tenetur commodi debitis labore tempore natus dolore inventore quia.</p>
+            <p>We provide leadership that strengthens our economy, convenes our community, and promotes collaboration so people can live, work, and thrive in Austin.</p>
         </section>
         <section id="current-events">
             <h2>Current Events</h2>
             <div>
-                <img src="//via.placeholder.com/400x600/" alt="Placeholder Image" loading="lazy">
-                <a class="button" href="#">Label</a>
+                <a href="https://www.austinchamber.com/events/federal-advocacy-visit-2024"><img src="images/event-1.webp" alt="Federal Advocacy Visit" loading="lazy"></a>
+                <h3>Federal Advocacy Visit 2024</h3>
+                <p>The Chamber will be bringing a group of Austin business and community leaders to advocate for pro-business policies in Washington, DC from June 11th-13th. Full details and registration information will be available shortly.</p>
             </div>
             <div>
-                <img src="//via.placeholder.com/400x600/" alt="Placeholder Image" loading="lazy">
-                <a class="button" href="#">Label</a>
+                <a href="https://www.austinchamber.com/events/austin-gives-awards-2024"><img src="images/event-2.webp" alt="Austin Gives Awards" loading="lazy"></a>
+                <h3>Austin Gives Awards - May 7, 2024</h3>
+                <p>Each year, we invite the business community to nominate businesses that do an outstanding job of giving back to our Central Texas community. Join us at the JW Marriott on May 7th to honor our 2024 winners.</p>
             </div>
             <div>
-                <img src="//via.placeholder.com/400x600/" alt="Placeholder Image" loading="lazy">
-                <a class="button" href="#">Label</a>
+                <a href="https://www.austinchamber.com/events/infrastructure-summit"><img src="images/event-3.webp" alt="Infastructure Summit" loading="lazy"></a>
+                <h3>2024 Infrastructure Summit - April 10, 2024</h3>
+                <p>We are gathering on April 1st to discuss everything unfolding in transportation, transit, water, power, and more in the Greater Austin area! This event offers a unique chance for business and community leaders to gain insights into Austin's future directly from regional experts and elected officials.</p>
             </div>
         </section>
         <section id="weather">
             <h2>Weather</h2>
-            <h3>Sunny</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto exercitationem provident repellendus omnis quibusdam blanditiis ullam laborum eius eveniet veritatis, rem fugit rerum! Est optio ex quaerat alias ab consequatur?</p>
+            <div id="weather-today">
+                <p><span><img src="#" id="weather-icon" alt="Weather Icon"></p>
+                <p>Today: </span> <span id="current-temp"></span> - <span id="weather-desc"></span></p>       
+            </div>
+            <div id="weather-tomorrow">
+                <p><span><img src="#" id="weather-icon-2" alt="Weather Icon"></p>
+                <p>Tomorrow: </span> <span id="current-temp-2"></span> - <span id="weather-desc-2"></span></p>       
+            </div>
+            <div id="weather-day-after">
+                <p><span><img src="#" id="weather-icon-3" alt="Weather Icon"></span></p>
+                <p>Day After: <span id="current-temp-3"></span> - <span id="weather-desc-3"></span></p>       
+            </div>
         </section>
         <section id="company-spotlight">
             <h2>Company Spotlight</h2>
             <div>
-                <img src="//via.placeholder.com/400x600/" alt="Placeholder Image" loading="lazy">
-                <a class="button" href="#">Label</a>
+                <img id="spotlight-1" src="//via.placeholder.com/400x600/" alt="Placeholder Image" loading="lazy">
+                <h3 id="spotlight-1-membership"></h3>
+                <p id="spotlight-1-other"></p>
             </div>
             <div>
-                <img src="//via.placeholder.com/400x600/" alt="Placeholder Image" loading="lazy">
-                <a class="button" href="#">Label</a>
+                <img id="spotlight-2" src="//via.placeholder.com/400x600/" alt="Placeholder Image" loading="lazy">
+                <h3 id="spotlight-2-membership"></h3>
+                <p id="spotlight-2-other"></p>
             </div>
             <div>
-                <img src="//via.placeholder.com/400x600/" alt="Placeholder Image" loading="lazy">
-                <a class="button" href="#">Label</a>
+                <img id="spotlight-3" src="//via.placeholder.com/400x600/" alt="Placeholder Image" loading="lazy">
+                <h3 id="spotlight-3-membership"></h3>
+                <p id="spotlight-3-other"></p>
             </div>
         </section>
     </main>
@@ -86,5 +103,8 @@
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/chamber.js"></script>
+    <script src="scripts/banner.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/spotlight.js"></script>
 </body>
 </html>

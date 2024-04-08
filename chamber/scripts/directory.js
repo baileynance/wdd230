@@ -5,39 +5,55 @@ const listbutton = document.querySelector("#list");
 const display = document.querySelector("#directory-grid");
 
 gridbutton.addEventListener("click", () => {
-	display.classList.add("grid");
-	display.classList.remove("list");
+	display.classList.add("directory-grid");
+	display.classList.remove("directory-list");
 });
 
 listbutton.addEventListener("click", showList);
 
 function showList() {
-	display.classList.add("list");
-	display.classList.remove("grid");
+	display.classList.add("directory-list");
+	display.classList.remove("directory-grid");
 }
 
 // Dynamic Links
 
-const pageURL = "https://baileynance.github.io/wdd230/";
-const linksURL = "https://baileynance.github.io/wdd230/chamber/data";
-const learningActivites = document.getElementById("home-la");
+const membersInfo = "https://baileynance.github.io/wdd230/chamber/data/members.json";
 
-async function getLinks() {
-    const response = await fetch(linksURL);
+async function getMembers() {
+    const response = await fetch(membersInfo);
     const data = await response.json();
-    displayLinks(data.weeks);
+    displayMembers(data.members);
 }
 
-const displayLinks = (weeks) => {
-    weeks.forEach((week) => {
-        let activity = document.createElement("li");
-        let links = "";
-        week.links.forEach((link) => {
-            links += `<a href="${link.url}">${link.title}</a>`;
-        })
-        activity.innerHTML = `${week.weeks}: ${links}`;
-        learningActivites.appendChild(activity);
+const displayMembers = (members) => {
+    members.forEach((member) => {
+        let section = document.createElement("section");
+        display.appendChild(section);
+
+        let name = document.createElement("h3");
+        name.textContent = member.name;
+        let address = document.createElement("p");
+        address.textContent = member.address;
+        let phoneNumber = document.createElement("p");
+        phoneNumber.textContent = member["phone-number"];
+        let url = document.createElement("a");
+        url.textContent = member.url;
+        let img = document.createElement("img");
+        img.textContent = member.image;
+        let membership = document.createElement("p");
+        membership.textContent = member.membership;
+        let other = document.createElement("p");
+        other.textContent = member.other;
+
+        section.appendChild(name);
+        section.appendChild(address);
+        section.appendChild(phoneNumber);
+        section.appendChild(url);
+        section.appendChild(img);
+        section.appendChild(membership);
+        section.appendChild(other);
     })
 }
 
-getLinks();
+getMembers();

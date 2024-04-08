@@ -30,6 +30,8 @@
         margin: 2rem 4rem;
     }
 
+    /* Banner */
+
     /* Hero Section */
 
     #hero-section {
@@ -62,18 +64,46 @@
         display: grid; 
         grid-template-columns: repeat(3, auto);
         grid-template-rows: repeat(2, auto);
+        grid-gap: 25px;
     }
 
     #current-events h2 {
         grid-row: 1/2;
         grid-column: 2/3;
+        text-align: center;
     }
 
     #current-events div {
         grid-row: 2/3;
+        font-size: 0.8rem;
+    }
+
+    #current-events img {
+        height: 175px;
+    }
+
+    #current-events h3, #current-events p {
+        margin: 1rem;
     }
 
     /* Weather */
+
+    #weather {
+        display: grid; 
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(2, auto);
+        grid-gap: 25px;
+    }
+
+    #weather h2 {
+        grid-row: 1/2;
+        grid-column: 2/3;
+        text-align: center;
+    }
+
+    #weather div {
+        grid-row: 2/3;
+    }
 
     #weather h3 {
         text-align: center;
@@ -84,6 +114,7 @@
         display: grid; 
         grid-template-columns: repeat(3, auto);
         grid-template-rows: repeat(2, auto);
+        grid-gap: 25px;
     }
 
     #company-spotlight h2 {
@@ -95,6 +126,14 @@
         grid-row: 2/3;
     }
 
+    #company-spoltight h3, #company-spoltight p {
+        margin: 1rem;
+    }
+
+    #spotlight-1-other, #spotlight-2-other, #spotlight-3-other {
+        font-size: 0.7rem;
+        margin: 1rem;
+    }
 
 
     /* Discover */
