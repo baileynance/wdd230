@@ -156,6 +156,7 @@
     }
 
     .discover div h2 {
+        margin-left: 0;
         padding: 1.5rem 1rem 0 2rem;
         text-align: left;
     }
@@ -197,5 +198,29 @@
     .form form {
         grid-column: 1/2;
         grid-row: 1/2;
+    }
+
+    /* Directory */
+    
+    .directory-menu {
+        margin: 1rem 4rem;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 0.5rem;
+        background-color: #E7DFC6;
+        text-align: center;
+    }
+
+    .grid {
+        display: grid;
+	    grid-template-columns: 3fr;
+	    grid-gap: 15px;
+	    align-items: center;
+    }
+
+    .grid article {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 0.5rem;
+        background-color: #eee;
+        text-align: center;
     }
 }

@@ -275,6 +275,10 @@ footer {
 
 /* Discover Page */
 
+.discover h2 {
+    margin-left: 2rem;
+}
+
 #visit-message {
     margin-bottom: -.5rem;
     border: 3px solid #54426B;
@@ -398,7 +402,6 @@ input[type="submit"] {
 #directory {
 	margin: 0 auto;
 	padding: 0.5rem;
-	max-width: 400px;
 	background-color: #fff;
 }
 
@@ -411,58 +414,52 @@ input[type="submit"] {
 }
 
 .directory-menu button {
-	padding: 1rem;
-	font-weight: 700;
+    height: 44px;
 }
 
+.grid article {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #eee;
+    text-align: center;
+}
 
-
-.directory-grid {
+.grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	grid-gap: 5px;
+	grid-template-columns: 1fr;
+	grid-gap: 15px;
 	align-items: center;
 }
 
-.directory-grid section {
-	text-align: center;
-}
-
-.directory-grid img {
+.grid img {
 	border: 1px solid #fff;
 	box-shadow: 0 0 10px #333;
+    margin: 1rem;
 }
 
-.directory-grid section > * {
-	margin: 0.1rem;
+.grid article > * {
+	margin: 1rem;
 }
 
 
 
-.directory-list {
+.list {
 	display: flex;
 	flex-direction: column;
 }
 
-.directory-list section {
-	display: grid;
-	grid-template-columns: 2fr 1fr 1fr;
-	margin: 0;
-	padding: 0.25rem;
+.list article > * {
+	margin: 1rem;
 }
 
-.directory-list section > * {
-	margin: 0 1rem;
+.list article img {
+	display: none; /* smaller viewports only */
 }
 
-.directory-list section img {
-	display: none; 
-}
-
-.directory-list section h3 {
+.list article h3 {
 	font-size: 1rem;
 }
 
-.directory-list section:nth-child(even) {
-	background-color: #E7DFC6;
+.list article:nth-child(even) {
+	background-color: #eee;
 }
